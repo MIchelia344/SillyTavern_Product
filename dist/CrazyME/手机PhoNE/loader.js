@@ -4,7 +4,7 @@
 const REPO = 'MIchelia344/SillyTavern_Product';
 const CDN = 'https://testingcf.jsdelivr.net/gh/' + REPO;
 const FILE = 'dist/CrazyME/手机PhoNE/index.js';
-const FALLBACK = 'v20261105-2337';
+const FALLBACK = 'v20261108-0033';
 
 async function tagFromManifest() {
   try {
