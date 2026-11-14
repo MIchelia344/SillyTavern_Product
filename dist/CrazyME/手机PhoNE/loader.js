@@ -6,7 +6,7 @@
 const REPO = 'MIchelia344/SillyTavern_Product';
 const BRANCH = 'main';
 const FILE = 'dist/CrazyME/手机PhoNE/index.js';
-const FALLBACK = 'v20261114-1539';
+const FALLBACK = 'v20261114-1546';
 const TIMEOUT_MS = 3500;
 // jsdelivr 和国内常见的同构镜像，按顺序试；前面几个在国内可能超时，由后面兜底。
 const MIRRORS = [
