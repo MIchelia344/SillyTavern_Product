@@ -3,14 +3,14 @@
 这个仓库只放打包好的文件，供酒馆助手（Tavern Helper）脚本直接 import。
 源码不在仓库里，请回主仓库修改。
 
-最新版本：`v20261114-0220`（见 [`latest.json`](./latest.json)）
+最新版本：`v20261114-1538`（见 [`latest.json`](./latest.json)）
 
 ## 用法一：固定版本（不会自动更新）
 
 ### dist/CrazyME/手机PhoNE/index.js
 
 ```js
-import 'https://testingcf.jsdelivr.net/gh/MIchelia344/SillyTavern_Product@v20261114-0220/dist/CrazyME/手机PhoNE/index.js'
+import 'https://testingcf.jsdelivr.net/gh/MIchelia344/SillyTavern_Product@v20261114-1538/dist/CrazyME/手机PhoNE/index.js'
 ```
 
 ## 用法二：自动更新加载器（推荐，贴一次以后不用改）
@@ -30,7 +30,7 @@ import 'https://testingcf.jsdelivr.net/gh/MIchelia344/SillyTavern_Product@v20261
 const REPO = 'MIchelia344/SillyTavern_Product';
 const BRANCH = 'main';
 const FILE = 'dist/CrazyME/手机PhoNE/index.js';
-const FALLBACK = 'v20261114-0220';
+const FALLBACK = 'v20261114-1538';
 const TIMEOUT_MS = 3500;
 // jsdelivr 和国内常见的同构镜像，按顺序试；前面几个在国内可能超时，由后面兜底。
 const MIRRORS = [
